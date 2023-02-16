@@ -1,0 +1,44 @@
+.list_contact{
+    list-style-type: disc;
+    padding-left: 0px;
+}
+
+.listItem_contact{
+    display:flex;
+    width: 400px;
+    margin-bottom: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bttn_contactList {
+    margin-left: auto;
+
+    border: none;
+        border-radius: 4px;
+        width: 100px;        
+      
+        color: whitesmoke;
+        background-color:firebrick;
+        cursor: pointer;
+        font-family: inherit;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 1.88;
+        letter-spacing: 0.06em;
+        -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        -webkit-animation: hero-button 600ms linear 100ms 1 alternate both;
+        animation: hero-button 600ms linear 100ms 1 alternate both;
+        -webkit-transform-origin: right center;
+        transform-origin: right center;
+        -webkit-transition: background-color var(--transition), color var(--transition);
+        transition: background-color var(--transition), color var(--transition);
+
+}
+
+.bttn_contactList:hover{
+    background-color:coral;
+        color:black;
+}
