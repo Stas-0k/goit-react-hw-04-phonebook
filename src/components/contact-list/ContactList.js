@@ -25,8 +25,8 @@ const ContactList = ({ contacts, onDelete }) => {
 };
 
 ContactList.propTypes = {
-  contacts: propTypes.shape(
-    propTypes.exact({
+  contacts: propTypes.arrayOf(
+    propTypes.shape({
       id: propTypes.string.isRequired,
       name: propTypes.string.isRequired,
       number: propTypes.string.isRequired,
